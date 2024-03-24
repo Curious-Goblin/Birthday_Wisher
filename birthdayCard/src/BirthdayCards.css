@@ -1,0 +1,50 @@
+/* BirthdayCards.css */
+
+#Div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('./images/backgroundImageLandingPage.avif');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #card1 {
+    background-image: url('./images/birthdayImage1.avif');
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 35%;
+    font-family: 'Comic Sans MS', cursive;
+    color: black; 
+    padding: 20px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    font-size:60px;
+  }
+  
+  #card2 {
+    background-image: url('./images/birthdayImage2.avif');
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 35%;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(19, 18, 18);
+    padding: 20px 50px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    font-size:60px;
+    border-radius: 50%;
+  }
+  

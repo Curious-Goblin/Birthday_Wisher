@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url('./images/backgroundImageLandingPage.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#mainDiv {
+    padding: 30px 150px; /* Adjust padding as needed */
+    border-radius: 10px;
+    background-color: rgba(133, 133, 227, 0.6);
+    text-align: center; /* Center the contents horizontally */
+}
+
+#heading {
+    margin: 20px;
+    color: rgb(208, 205, 222);
+    font-weight:bold;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#name {
+    margin: 10px;
+    padding: 5px 5px; /* Adjust padding as needed */
+    border-radius: 5px;
+    border: 1px;
+    width: 400px; 
+    outline: none;
+    text-align: left; /* Set text alignment to left */
+    direction: rtl; /* Set direction to right-to-left */
+    text-indent: 0;
+}
+
+
+#done {
+    margin: 10px;
+    padding: 8px 20px;
+    background-color: rgb(48, 19, 162);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
