@@ -7,14 +7,21 @@ Welcome to the Birthday Card Wisher project! This simple program allows users to
 - **Customization**: Users can input a name, and the program will generate two birthday card designs with the provided name incorporated.
 - **Variety**: The program generates two different designs to offer variety in birthday card options.
 - **Ease of Use**: Simple command-line interface for easy interaction.
-
+  
 ## Usage
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
-3. Run the `birthday_card_wisher.py` script.
-4. Follow the prompts to input the name for the birthday card recipient.
-5. Once the program finishes execution, you will find two customized birthday card designs saved in the output folder.
+3. Install dependencies using npm:
+    ```sh
+    npm install
+    ```
+4. Start the React development server:
+    ```sh
+    npm start
+    ```
+5. Open your web browser and navigate to `http://localhost:3000` to view the application.
+
 
 ## Requirements
 
